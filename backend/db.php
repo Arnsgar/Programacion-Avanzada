@@ -10,7 +10,7 @@ try{
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "Conexión exitosa a la base de datos 'registro'";
 }catch(PDOException $e){
-    die ("Error de conexión: ".$e->getMessage());
+    echo "Error de conexión: " . $e->getMessage();
     // echo "Error de conexión: ".$e->getMessage();
 }
 
