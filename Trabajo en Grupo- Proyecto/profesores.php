@@ -28,28 +28,6 @@ if (!isset($user)) {
     <h1>Hola here i go again</h1>
 
 
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header text-center bg-primary text-white">
-                        <h3>Bienvenido</h3>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="text-center">¡Hola, <?php echo $_SESSION['user']; ?>!</h5>
-                        <p class="text-center">¡Estás logueado correctamente!</p>
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="logout.php" class="btn btn-danger">Cerrar sesión</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
 
 
 <!-- Footer: Scripts -->
